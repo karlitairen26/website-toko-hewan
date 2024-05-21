@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Toko Online</title>
+  <link rel="stylesheet" type="text/css" href="slide3.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <center>
+        <li><a href="slide1.html">Home</a></li>
+        <li><a href="slide2.html">Produk</a></li>
+        <li><a href="#">Eat`s</a></li>
+        <li><a href="slide4.html">Equipment</a></li>
+    </center>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
+    <h2> EAT`S </h2>
+  </section>
+
+  <section id="produk">
+    <h2>Produk Terkini</h2>
+    <div class="produk-container">
+      <div class="produk">
+        <img src="WhatsApp Image 2024-05-19 at 20.31.52_e2a8f061.jpg" alt="Produk 1">
+        <h3>Royal Canin Hairball</h3>
+        <p>Harga: Rp.50.000</p>
+        <button onclick="tambahKeKeranjang('Buy 1', 50.000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="produk">
+        <img src="WhatsApp Image 2024-05-19 at 20.31.52_68ad3390.jpg" alt="Produk 2">
+        <h3>Royal Canin Mother & babycat</h3>
+        <p>Harga: Rp.48.000</p>
+        <button onclick="tambahKeKeranjang('Buy 2', 48.000)">Tambah ke Keranjang</button>
+      </div>
+      <div class="produk">
+        <img src="WhatsApp Image 2024-05-19 at 20.31.53_01e60ed5.jpg" alt="Produk 3">
+        <h3>Royal Canin AGING</h3>
+        <p>Harga: Rp.55.000</p>
+        <button onclick="tambahKeKeranjang('Buy 3', 55.000)">Tambah ke Keranjang</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="keranjang">
+    <h2>Pesanan anda</h2>
+    <ul id="keranjang-list"></ul>
+    <p id="total-harga">Total Harga: $0</p>
+    <a href="#"><button>Beli</button></a>
+  </section>
+
+  <script src="slide2.js"></script>
+</body>
+</html>
